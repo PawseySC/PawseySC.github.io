@@ -12,11 +12,6 @@
   </head>
   <body>
     <section class="page-header">
-      <div style="text-align: right;">
-        {% for externalLink in site.data.externalLinks.links %}
-          <a href="{{ externalLink.url }}" style="padding: 10px;">{{ externalLink.title }}</a>
-        {% endfor %}
-      </div>
       <a class="site-title" href="http://pawsey.org.au"><img width="200" src="{{ '/' | absolute_url }}assets/img/logo.png"></a>
       <h2 class="project-tagline">Course & Training Material</h2>
       {% for item in site.data.pages.pages %}
@@ -67,7 +62,12 @@
         </table>
       </div>
       <footer class="site-footer">
-        <span class="site-footer-credits"></span><br/>
+        <span class="site-footer-credits"></span>
+        <div class="external-links">
+          {% for externalLink in site.data.externalLinks.links %}
+            <a href="{{ externalLink.url }}" style="padding: 10px;">{{ externalLink.title }}</a>
+          {% endfor %}
+        </div>
       </footer>
     </section>
   <!-- Place this tag in your head or just before your close body tag. -->
