@@ -5,3 +5,18 @@ links:
   url: https://support.pawsey.org.au/documentation/display/US/Training+Material
 - title: Pawsey GitHub
   url: https://github.com/pawseysc
+linkImages:
+- image: assets/img/wagovt.png
+  href: https://www.wa.gov.au/
+- image: assets/img/ausgovt-ncris.png
+  href: https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris
+- image: assets/img/csiro.png
+  href: https://www.csiro.au/
+- image: assets/img/curtin.png
+  href: https://www.curtin.edu.au/
+- image: assets/img/ecu.png
+  href: http://www.ecu.edu.au/
+- image: assets/img/murdoch.png
+  href: https://www.murdoch.edu.au/
+- image: assets/img/uwa.png
+  href: https://www.uwa.edu.au/
