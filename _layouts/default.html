@@ -60,6 +60,8 @@
           </tbody>
         </table>
       </div>
+    </section>
+    <section>
       <footer class="site-footer">
         <span class="site-footer-credits"></span>
         <div class="external-links">
@@ -67,8 +69,13 @@
             <a href="{{ externalLink.url }}" style="padding: 10px;">{{ externalLink.title }}</a>
           {% endfor %}
         </div>
+        <div class="external-links-images">
+          {% for externalLinkImage in site.data.externalLinks.linkImages %}
+            <a href="{{ externalLinkImage.href }}" target="_blank" rel="noopener noreferrer" style="padding: 20px;"><img src="{{ externalLinkImage.image }}" alt=""></a>
+          {% endfor %}
+        </div>
       </footer>
-    </section>
+    </setion>    
   <!-- Place this tag in your head or just before your close body tag. -->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   </body>
