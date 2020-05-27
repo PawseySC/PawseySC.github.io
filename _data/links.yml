@@ -73,7 +73,7 @@ tableData:
   pageName: containers.md
   url: https://pawseysc.github.io/docker-resbaz19/
   git: https://github.com/PawseySC/docker-resbaz19
-- title: Bio Workshop \'18
+- title: Bio Workshop 18
   description: Pawsey workshop on containers for bioinformatics.
   pageName: containers.md
   git: https://github.com/PawseySC/bio-workshop-18
