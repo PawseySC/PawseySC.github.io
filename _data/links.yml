@@ -31,7 +31,7 @@ tableData:
   description: This course will introduce you to the use of Nimbus, the research cloud at Pawsey Supercomputing Centre.
   pageName: training.md
   url: https://pawseysc.github.io/using-nimbus
-  vid: https://www.youtube.com/watch?v=5yItRsdleE4&list=PLmu61dgAX-aYar4Fpust_u3mpDt07T2jl
+  vid: https://www.youtube.com/playlist?list=PLmu61dgAX-aYar4Fpust_u3mpDt07T2jl
   git: https://github.com/PawseySC/using-nimbus
 - title: Introducing Remote Visualisation
   description: Introduction to remote visualisation facilities at Pawsey.
