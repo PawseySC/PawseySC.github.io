@@ -1,8 +1,17 @@
 tableData:
-- title: Introduction to Pawsey
+- title: Introduction to the Pawsey Supercomputing Centre
   description: Advancing science through supercomputing.
   pageName: training.md
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Introduction%20to%20Pawsey.pdf?api=v2
+  vid: https://www.youtube.com/watch?v=j2JFCsvsH1g&list=PLmu61dgAX-aZfevU9ZmtQ13bbOeF1GY5u&index=2&t=3s
+- title: Using Supercomputers – Part 1
+  description: Part 1 - Beginners training outlining the major characteristics of a supercomputer, logging in, submitting a job and other key concepts.
+  pageName: training.md
+  vid: https://www.youtube.com/watch?v=5myCBDNn5is&list=PLmu61dgAX-aZfevU9ZmtQ13bbOeF1GY5u&index=3&t=29s
+- title: Using Supercomputers – Part 2
+  description: Part 2 - Beginners training outlining use of High Performance Storage, running jobs, real world HPC use and getting help.
+  pageName: training.md
+  vid: https://www.youtube.com/watch?v=l-S_dzCHcKk&list=PLmu61dgAX-aZfevU9ZmtQ13bbOeF1GY5u&index=3
 - title: Introductory Supercomputing
   description: An introductory supercomputing course developed by the Pawsey Supercomputing Centre.
   pageName: training.md
@@ -18,15 +27,17 @@ tableData:
   pageName: training.md
   url: https://pawseysc.github.io/shell-hpc
   git: https://github.com/PawseySC/shell-hpc
-- title: Using Nimbus
+- title: Using the Nimbus Research Cloud Series
   description: This course will introduce you to the use of Nimbus, the research cloud at Pawsey Supercomputing Centre.
   pageName: training.md
   url: https://pawseysc.github.io/using-nimbus
+  vid: https://www.youtube.com/watch?v=5yItRsdleE4&list=PLmu61dgAX-aYar4Fpust_u3mpDt07T2jl
   git: https://github.com/PawseySC/using-nimbus
-- title: Remote Visualisation
+- title: Introducing Remote Visualisation
   description: Introduction to remote visualisation facilities at Pawsey.
   pageName: training.md
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Remote%20Visualisation.pdf?api=v2
+  vid: https://www.youtube.com/watch?v=aZgyjpsglSU&list=PLmu61dgAX-aZfevU9ZmtQ13bbOeF1GY5u&index=4
 - title: Develop with MPI
   description: Introduction to programming with MPI.
   pageName: code.md
@@ -52,14 +63,20 @@ tableData:
   pageName: code.md
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Optimising%20Serial%20Code.pdf?api=v2
   git: https://github.com/PawseySC/Optimising-Serial-Code
-- title: Singularity Containers
-  description: The latest tutorial and webinars on Singularity containers for HPC and Cloud.
+- title: Webinar Series on Containers, June 2020
+  description: Software portability, data reproducibility, and improved collaboration. This webinar series answers key questions about containers.
   pageName: containers.md
-  url: https://pawseysc.github.io/singularity-containers
-  ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Containers%20on%20HPC%20and%20Cloud%20with%20Singularity.pdf?api=v2
-  git: https://github.com/pawseysc/singularity-containers
+  vid: https://www.youtube.com/playlist?list=PLmu61dgAX-abfDjX1gugQh60AJRIpDrVz
+- title: Using Containers with OpenFOAM (workshop series), May 2020
+  description: Hands-on practice with the use of OpenFOAM containers on HPC.
+  pageName: containers.md
+  vid: https://www.youtube.com/playlist?list=PLmu61dgAX-aZS9kbcuKpRtLswApf49Z4D
+- title: Using Containers in Bioinformatics (workshop series), July 2020
+  description: This workshop provides an interactive forum to explore the merits, advantages and limitations of applying containers in bioinformatics.
+  pageName: containers.md
+  vid: https://www.youtube.com/playlist?list=PLmu61dgAX-aYkz4rAl-nqmUfq_u9YUoFn
 - title: Containers @SC19
-  description: Tutorial on Singularity containers at SC19 in Denver (USA).
+  description: Learn what are containers and how they are beneficial to HPC & Cloud computing.
   pageName: containers.md
   url: https://pawseysc.github.io/sc19-containers
   git: https://github.com/pawseysc/sc19-containers
@@ -68,7 +85,7 @@ tableData:
   pageName: containers.md
   url: https://pawseysc.github.io/container-workflows
   git: https://github.com/PawseySC/container-workflows
-- title: Docker @ResBaz19
+- title: Docker @ResBaz9
   description: Docker tutorial for ResBaz19 in Perth.
   pageName: containers.md
   url: https://pawseysc.github.io/docker-resbaz19/
@@ -77,6 +94,11 @@ tableData:
   description: Pawsey workshop on containers for bioinformatics.
   pageName: containers.md
   git: https://github.com/PawseySC/bio-workshop-18
+- title: Overview of Containers in HPC
+  description: Pawsey Webinar on containers for HPC.
+  pageName: containers.md
+  ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Overview%20of%20Containers%20in%20HPC.pdf?api=v2
+  git: https://github.com/PawseySC/Overview-of-Containers-in-HPC
 - title: Cosmic Machines
   description: Introductory workshop for Machine Learning in observational astronomy.
   pageName: webinars.md
@@ -90,11 +112,4 @@ tableData:
   pageName: webinars.md
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Data%20Intensive%20Workflows%20in%20HPC.pdf?api=v2
   git: https://github.com/PawseySC/data-intensive-workflows
-- title: Overview of Containers in HPC
-  description: Pawsey Webinar on containers for HPC.
-  pageName: webinars.md
-  ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Overview%20of%20Containers%20in%20HPC.pdf?api=v2
-  git: https://github.com/PawseySC/Overview-of-Containers-in-HPC
-
-
-
+  
