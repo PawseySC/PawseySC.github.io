@@ -83,7 +83,7 @@ tableData:
   url: https://pawseysc.github.io/containers-bioinformatics-workshop
   vid: https://www.youtube.com/playlist?list=PLmu61dgAX-aYkz4rAl-nqmUfq_u9YUoFn
   git: https://github.com/PawseySC/containers-bioinformatics-workshop
-- title: Using Containers with Python and (Radio)Astronomy (workshop), September 2020
+- title: Designing Containers for Python and (Radio)Astronomy (workshop), September 2020
   description: Hands-on practice with the development of Python containers for Radioastronomy on HPC.
   pageName: containers.md
   url: https://pawseysc.github.io/containers-astro-python-workshop
