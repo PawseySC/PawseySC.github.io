@@ -47,7 +47,8 @@ tableData:
   description: Visualisation using ParaView.
   pageName: training.md
   url: https://vis.pawsey.org.au/training
-  ppt: https://vis.pawsey.org.au/training/paraview-part2/#/- title: Develop with MPI
+  ppt: https://vis.pawsey.org.au/training/paraview-part2/#/
+- title: Develop with MPI
   description: Introduction to programming with MPI.
   pageName: code.md
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Parallelize%20your%20Code%20with%20MPI.pdf?api=v2
