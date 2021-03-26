@@ -89,6 +89,7 @@ tableData:
   description: Hands-on practice with the development of Python containers for Radioastronomy on HPC.
   pageName: containers.md
   url: https://pawseysc.github.io/containers-astro-python-workshop
+  vid: https://www.youtube.com/playlist?list=PLmu61dgAX-aaIQibfUlxpy0Qz453jaLzl
   git: https://github.com/PawseySC/containers-astro-python-workshop
 - title: Using Containers in Bioinformatics (workshop series), July 2020
   description: This workshop provides an interactive forum to explore the merits, advantages and limitations of applying containers in bioinformatics.
