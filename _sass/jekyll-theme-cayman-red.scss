@@ -68,6 +68,7 @@ i {
 .btn {
   display: inline-block;
   color: #fff;
+  text-transform: uppercase;
   background-color: #D4C89E;
   transition: color 0.2s, background-color 0.2s, border-color 0.2s;
 
@@ -314,7 +315,7 @@ i {
     th {
       font-weight: bold;
       color: #fff;
-      background: #318293;
+      background: #7ba6ad;
     }
 
     th,
@@ -322,6 +323,9 @@ i {
       vertical-align: top;
       padding: 0.5rem 1rem;
       border: 1px solid $table-border-color;
+    }
+    td > a {
+      color:  #ed8f7b;  
     }
   }
 
