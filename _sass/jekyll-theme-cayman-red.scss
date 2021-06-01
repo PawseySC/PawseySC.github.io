@@ -67,20 +67,14 @@ i {
 
 .btn {
   display: inline-block;
-  margin-bottom: 1rem;
-  color: rgba(49, 130, 147, 1.0);
-  background-color: rgba(255, 255, 255, 0.08);
-  border-color: rgba(9, 67, 88, 1.0);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 0.3rem;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #D4C89E;
   transition: color 0.2s, background-color 0.2s, border-color 0.2s;
 
   &:hover {
-    color: rgba(255, 255, 255, 1.0);
     text-decoration: none;
-    background-color: rgba(241, 90, 41, 1.0);
-    border-color: rgba(9, 67, 88, 0.3);
+    background-color: #30251c;
   }
 
   + .btn {
@@ -321,7 +315,7 @@ i {
     th {
       font-weight: bold;
       color: #fff;
-      background: #318293;
+      background: #7ba6ad;
     }
 
     th,
@@ -329,6 +323,9 @@ i {
       vertical-align: top;
       padding: 0.5rem 1rem;
       border: 1px solid $table-border-color;
+    }
+    td > a {
+      color:  #ed8f7b;  
     }
   }
 
