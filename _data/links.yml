@@ -150,6 +150,7 @@ tableData:
 - title: Bio Workshop 18, September 2018
   description: Pawsey workshop on containers for bioinformatics.
   pageName: training.md
+  provider: Pawsey
   git: https://github.com/PawseySC/bio-workshop-18
 - title: Overview of Containers in HPC
   description: Pawsey Webinar on containers for HPC.
