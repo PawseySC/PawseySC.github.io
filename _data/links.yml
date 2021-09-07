@@ -1,4 +1,5 @@
 tableData:
+# Core
 - title: Introduction to the Pawsey Supercomputing Centre
   description: Advancing science through supercomputing.
   pageName: training.md
@@ -7,6 +8,11 @@ tableData:
   provider: Pawsey
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Introduction%20to%20Pawsey.pdf?api=v2
   vid: https://www.youtube.com/watch?v=j2JFCsvsH1g&list=PLmu61dgAX-aZfevU9ZmtQ13bbOeF1GY5u&index=2
+- title: Pawsey Merit Allocation Training 2022
+  description: Setonix overview and merit allocation schemes for 2022.
+  pageName: training.md
+  provider: Pawsey
+  ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Pawsey%20Merit%20Allocation%20Training%202021.pdf?api=v2
 - title: Using Supercomputers – Part 1
   description: Part 1 - Beginners training outlining the major characteristics of a supercomputer, logging in, submitting a job and other key concepts.
   pageName: training.md
@@ -63,6 +69,7 @@ tableData:
   provider: Pawsey
   url: https://vis.pawsey.org.au/training
   ppt: https://vis.pawsey.org.au/training/paraview-part2/#/
+# Developer
 - title: Develop with MPI
   description: Introduction to programming with MPI.
   pageName: training.md
@@ -93,6 +100,7 @@ tableData:
   provider: Pawsey
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Optimising%20Serial%20Code.pdf?api=v2
   git: https://github.com/PawseySC/Optimising-Serial-Code
+# Containers
 - title: Webinar and Tutorial Series on Containers, June 2020
   description: Software portability, data reproducibility, scaling to HPC. This series answers key questions about containers.
   pageName: training.md
@@ -149,6 +157,7 @@ tableData:
   provider: Pawsey
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Overview%20of%20Containers%20in%20HPC.pdf?api=v2
   git: https://github.com/PawseySC/Overview-of-Containers-in-HPC
+# Misc Webinars
 - title: Cosmic Machines
   description: Introductory workshop for Machine Learning in observational astronomy.
   pageName: training.md
@@ -165,8 +174,4 @@ tableData:
   provider: Pawsey
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Data%20Intensive%20Workflows%20in%20HPC.pdf?api=v2
   git: https://github.com/PawseySC/data-intensive-workflows
-- title: Pawsey Merit Allocation Training 2022
-  description: Setonix overview and merit allocation schemes for 2022.
-  pageName: training.md
-  provider: Pawsey
-  ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Pawsey%20Merit%20Allocation%20Training%202021.pdf?api=v2
+# More
