@@ -84,35 +84,35 @@ tableData:
   ppt: https://vis.pawsey.org.au/training/paraview-part2/#/
 # Developer
 - title: Develop with MPI
-  description: Introduction to programming with MPI.
+  description: Introduction to parallel programming with MPI.
   pageName: training.md
   level: Advanced
   provider: Pawsey
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Parallelize%20your%20Code%20with%20MPI.pdf?api=v2
   git: https://github.com/PawseySC/Develop-with-MPI
 - title: Develop with OpenMP
-  description: Introduction to programming with OpenMP.
+  description: Introduction to parallel programming with OpenMP.
   pageName: training.md
   level: Advanced
   provider: Pawsey
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Parallelize%20your%20Code%20with%20OpenMP.pdf?api=v2
   git: https://github.com/PawseySC/Develop-with-OpenMP
 - title: Develop with CUDA
-  description: CUDA exercises for the GPU Essentials training course.
+  description: GPU programming essentials with CUDA.
   pageName: training.md
   level: Advanced
   provider: Pawsey
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/GPU%20Programming%20Essentials.pdf?api=v2
   git: https://github.com/PawseySC/Develop-with-CUDA
 - title: Develop with OpenACC
-  description: Introduction to programming with OpenACC.
+  description: Introduction to GPU programming with OpenACC.
   pageName: training.md
   level: Advanced
   provider: Pawsey
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Introduction%20to%20OpenACC.pdf?api=v2
   git: https://github.com/PawseySC/Develop-with-OpenACC
 - title: Optimising Serial Code
-  description: Exercises for the course on Optimising Serial Code.
+  description: Introduction to serial code optimisation.
   pageName: training.md
   level: Advanced
   provider: Pawsey
@@ -130,7 +130,7 @@ tableData:
   vid: https://www.youtube.com/playlist?list=PLmu61dgAX-abfDjX1gugQh60AJRIpDrVz
   git: https://github.com/pawseysc/singularity-containers
 - title: Using Containers with OpenFOAM (workshop series), May 2020
-  description: Hands-on practice with the use of OpenFOAM containers on HPC.
+  description: Hands-on practice with the use of OpenFOAM containers for computational fluid dynamics on HPC.
   pageName: training.md
   level: Intermediate
   topic: Containers
@@ -148,7 +148,7 @@ tableData:
   vid: https://www.youtube.com/playlist?list=PLmu61dgAX-aYkz4rAl-nqmUfq_u9YUoFn
   git: https://github.com/PawseySC/containers-bioinformatics-workshop
 - title: Designing Containers for Python and Radio-Astronomy (tutorial series), September 2020
-  description: Hands-on practice with the development of Python containers for Radioastronomy on HPC.
+  description: Hands-on practice with the development of Python containers for radio-astronomy on HPC.
   pageName: training.md
   level: Intermediate
   topic: Containers
@@ -173,7 +173,7 @@ tableData:
   url: https://pawseysc.github.io/container-workflows
   git: https://github.com/PawseySC/container-workflows
 - title: Docker @ResBaz19, July 2019
-  description: Docker tutorial for ResBaz19 in Perth.
+  description: Docker containers tutorial for ResBaz19 in Perth.
   pageName: training.md
   level: Intermediate
   topic: Containers
@@ -209,7 +209,7 @@ tableData:
   provider: Pawsey
   git: https://github.com/PawseySC/Using-Python-in-HPC
 - title: Data Intensive Workflows
-  description: Workshop on data-intensive workflows at Data Science Week 2019.
+  description: Workshop on data-intensive workflows at Data Science Week 2019, featuring Slurm, (Python) Dask and Nextflow.
   pageName: training.md
   level: Intermediate
   topic: Data
