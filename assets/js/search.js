@@ -19,6 +19,18 @@ $(document).ready(function() {
     filterResults();
   });
 
+  $('#data').click(function() {
+    filterResults();
+  });
+
+  $('#cloud').click(function() {
+    filterResults();
+  });
+
+  $('#visualisation').click(function() {
+    filterResults();
+  });
+
   $('#pawsey').click(function() {
     filterResults();
   });
@@ -39,11 +51,14 @@ $(document).ready(function() {
       isAdvanced = $('#advanced').is(':checked');
 
       isSupercomputing = $('#supercomputing').is(':checked');
+      isData = $('#data').is(':checked');
+      isCloud = $('#cloud').is(':checked');
+      isVisualisation = $('#visualisation').is(':checked');
       
       isPawsey = $('#pawsey').is(':checked');
       isExternal = $('#external').is(':checked');
       
-      if (isCore || isIntermediate || isAdvanced || isSupercomputing || isPawsey || isExternal) 
+      if (isCore || isIntermediate || isAdvanced || isSupercomputing || isData || isCloud || isVisualisation || isPawsey || isExternal) 
       {
         tag = $(this).find("td:eq(1)").html().toLowerCase();        
         if (searchValue == "" &&
@@ -51,6 +66,9 @@ $(document).ready(function() {
             (isIntermediate && tag.indexOf('intermediate') > -1) ||
             (isAdvanced && tag.indexOf('advanced') > -1) ||
             (isSupercomputing && tag.indexOf('supercomputing') > -1) ||
+            (isData && tag.indexOf('data') > -1) ||
+            (isCloud && tag.indexOf('cloud') > -1) ||
+            (isVisualisation && tag.indexOf('visualisation') > -1) ||
             (isPawsey && tag.indexOf('pawsey') > -1) ||
             (isExternal && tag.indexOf('external') > -1))
         {
@@ -61,6 +79,9 @@ $(document).ready(function() {
                  (isIntermediate && tag.indexOf('intermediate') > -1) ||
                  (isAdvanced && tag.indexOf('advanced') > -1) ||
                  (isSupercomputing && tag.indexOf('supercomputing') > -1) ||
+                 (isData && tag.indexOf('data') > -1) ||
+                 (isCloud && tag.indexOf('cloud') > -1) ||
+                 (isVisualisation && tag.indexOf('visualisation') > -1) ||
                  (isPawsey && tag.indexOf('pawsey') > -1) ||
                  (isExternal && tag.indexOf('external') > -1))
         {
