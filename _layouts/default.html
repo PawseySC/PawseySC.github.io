@@ -7,51 +7,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     {% if page.name == 'index.md' %}
-      <meta http-equiv = "refresh" content = "0; url = https://pawseysc.github.io/training.html" />
+      <meta http-equiv = "refresh" content = "0; url = https://ratkinson0405.github.io/training.html" />
     {% endif %}
-    <link href="/assets/fontawesome/css/all.css" rel="stylesheet">
+    <link href="assets/fontawesome/css/all.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/js/search.js"></script>
   </head>
   <body>
-    <section class="page-header">
-      <a class="site-title" href="http://pawsey.org.au"><img width="200" src="{{ '/' | absolute_url }}assets/img/logo.png"></a>
-      <h2 class="project-tagline">Course & Training Material</h2>
-      {% for item in site.data.pages.pages %}
-        {% if page.url == item.url %}
-          <a href="{{ item.url }}" class="btn" style="background-color: #30251c;"><font color="white">{{ item.title }}</font></a>
-        {% else %}
-          <a href="{{ item.url }}" class="btn">{{ item.title }}</a>
-        {% endif %}
-      {% endfor %}
-    </section>
-
-    <section class="main-content">
-      <div>
-        <table>
+    <div class="page-header">
+      <a class="site-title" href="http://pawsey.org.au"><img src="{{ '/' | absolute_url }}assets/img/logo.png"></a>
+      <h2 class="project-tagline">Training Resources</h2>
+    </div>
+    <div class="main-content">
+      <div class="main-content-search">
+        <div>
+          <input id="searchInput" type="text" placeholder="Search...">
+        </div>
+        <div class="search-label">
+          <label>Level</label>
+        </div>
+        <div class="search-criteria">
+          <input type="checkbox" id="core" name="core" value="Core">
+          <label for="core">Core</label><br>
+          <input type="checkbox" id="intermediate" name="intermediate" value="Intermediate">
+          <label for="intermediate">Intermediate</label><br>
+          <input type="checkbox" id="advanced" name="advanced" value="Advanced">
+          <label for="advanced">Advanced</label>
+        </div>
+        <div class="search-label">
+          <label>Category</label>
+        </div>
+        <div class="search-criteria">
+          <input type="checkbox" id="supercomputing" name="supercomputing" value="Supercomputing">
+          <label for="home">Supercomputing</label><br>
+        </div>
+        <div class="search-label">
+          <label>Provider</label>
+        </div>
+        <div class="search-criteria">
+          <input type="checkbox" id="pawsey" name="pawsey" value="Pawsey">
+          <label for="home">Pawsey</label><br>
+          <input type="checkbox" id="external" name="external" value="External">
+          <label for="home">External</label><br>
+        </div>
+      </div>
+      <div class="main-content-table">
+        <table id="trainingTable">
           <colgroup>
             <col width="20%" />
+            <col width="10%" />
             <col width="5%" />
             <col width="5%" />
             <col width="5%" />
             <col width="5%" />
-            <col width="60%" />
+            <col width="55%" />
           </colgroup>
           <thead>
           <tr class="header">
             <th>Name</th>
+            <th>Tags</th>
             <th>Home</th>
             <th>Slides</th>
             <th>Video</th>
             <th>GitHub</th>
-            <th>Description</th>
+            <th>Short Description</th>
           </tr>
           </thead>
-          <tbody>
+          <tbody id="pageTable">
             {% for data in site.data.links.tableData %}
               {% if data.pageName == page.name %}
                 <tr>
                   <td markdown="span">{{ data.title }}</td>
+                  <td markdown="span">{% if data.level != nil %}<div><b>Level:</b> {{ data.level }}<br></div>{% endif %}
+                                      {% if data.category != nil %}<div><b>Category:</b> {{ data.category }}<br></div>{% endif %}
+                                      {% if data.provider != nil %}<div><b>Provider:</b> {{ data.provider }}<br></div>{% endif %}
+                  </td>
                   <td markdown="span" align="center">{% if data.url != nil %}<a href="{{ data.url }}"><i class="fas fa-home"></i></a>{% endif %}</td>
                   <td markdown="span" align="center">{% if data.ppt != nil %}<a href="{{ data.ppt }}"><i class="fas fa-file-powerpoint"></i></a>{% endif %}</td>
                   <td markdown="span" align="center">{% if data.vid != nil %}<a href="{{ data.vid }}"><i class="fas fa-video"></i></a>{% endif %}</td>
@@ -63,23 +95,22 @@
           </tbody>
         </table>
       </div>
-    </section>
-    <section>
+    </div>
+    <div>
       <footer class="site-footer">
-        <span class="site-footer-credits"></span>
         <div class="external-links">
           {% for externalLink in site.data.externalLinks.links %}
-            <a href="{{ externalLink.url }}" style="padding: 10px;">{{ externalLink.title }}</a>
+            <a href="{{ externalLink.url }}" target="_blank">{{ externalLink.title }}</a>
           {% endfor %}
         </div>
-        <div class="external-links-images">
-          {% for externalLinkImage in site.data.externalLinks.linkImages %}
-            <a href="{{ externalLinkImage.href }}" target="_blank" rel="noopener noreferrer" style="padding: 20px;"><img src="{{ externalLinkImage.image }}" alt=""></a>
+        <div class="external-links-icons">
+          {% for externalLinkIcon in site.data.externalLinks.linkIcons %}
+            <a href="{{ externalLinkIcon.href }}" target="_blank" rel="noopener noreferrer"><img src="{{ externalLinkIcon.image }}" alt=""></a>
           {% endfor %}
         </div>
-        <p style="text-align: center">Copyright &copy; The Pawsey Supercomputing Centre <script>document.write(new Date().getFullYear())</script></p>
+        <p>Copyright &copy; The Pawsey Supercomputing Centre <script>document.write(new Date().getFullYear())</script></p>
       </footer>
-    </setion>    
+    </div>
   <!-- Place this tag in your head or just before your close body tag. -->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   </body>
