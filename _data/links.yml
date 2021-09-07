@@ -123,6 +123,7 @@ tableData:
   description: Software portability, data reproducibility, scaling to HPC. This series answers key questions about containers.
   pageName: training.md
   level: Intermediate
+  topic: Containers
   provider: Pawsey
   url: https://pawseysc.github.io/singularity-containers
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Containers%20on%20HPC%20and%20Cloud%20with%20Singularity.pdf?api=v2
@@ -132,6 +133,7 @@ tableData:
   description: Hands-on practice with the use of OpenFOAM containers on HPC.
   pageName: training.md
   level: Intermediate
+  topic: Containers
   provider: Pawsey
   url: https://pawseysc.github.io/containers-openfoam-workshop
   vid: https://www.youtube.com/playlist?list=PLmu61dgAX-aZS9kbcuKpRtLswApf49Z4D
@@ -140,6 +142,7 @@ tableData:
   description: This workshop provides an interactive forum to explore the merits, advantages and limitations of applying containers in bioinformatics.
   pageName: training.md
   level: Intermediate
+  topic: Containers
   provider: Pawsey
   url: https://pawseysc.github.io/containers-bioinformatics-workshop
   vid: https://www.youtube.com/playlist?list=PLmu61dgAX-aYkz4rAl-nqmUfq_u9YUoFn
@@ -148,6 +151,7 @@ tableData:
   description: Hands-on practice with the development of Python containers for Radioastronomy on HPC.
   pageName: training.md
   level: Intermediate
+  topic: Containers
   provider: Pawsey
   url: https://pawseysc.github.io/containers-astro-python-workshop
   vid: https://www.youtube.com/playlist?list=PLmu61dgAX-aaIQibfUlxpy0Qz453jaLzl
@@ -156,6 +160,7 @@ tableData:
   description: Tutorial on Singularity containers for HPC at SC19 in Denver (USA).
   pageName: training.md
   level: Intermediate
+  topic: Containers
   provider: Pawsey
   url: https://pawseysc.github.io/sc19-containers
   git: https://github.com/pawseysc/sc19-containers
@@ -163,6 +168,7 @@ tableData:
   description: Tutorial on Docker containers in HPC and Cloud.
   pageName: training.md
   level: Intermediate
+  topic: Containers
   provider: Pawsey
   url: https://pawseysc.github.io/container-workflows
   git: https://github.com/PawseySC/container-workflows
@@ -170,6 +176,7 @@ tableData:
   description: Docker tutorial for ResBaz19 in Perth.
   pageName: training.md
   level: Intermediate
+  topic: Containers
   provider: Pawsey
   url: https://pawseysc.github.io/docker-resbaz19
   git: https://github.com/PawseySC/docker-resbaz19
@@ -177,12 +184,14 @@ tableData:
   description: Pawsey workshop on containers for bioinformatics.
   pageName: training.md
   level: Intermediate
+  topic: Containers
   provider: Pawsey
   git: https://github.com/PawseySC/bio-workshop-18
 - title: Overview of Containers in HPC
   description: Pawsey Webinar on containers for HPC.
   pageName: training.md
   level: Intermediate
+  topic: Containers
   provider: Pawsey
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Overview%20of%20Containers%20in%20HPC.pdf?api=v2
   git: https://github.com/PawseySC/Overview-of-Containers-in-HPC

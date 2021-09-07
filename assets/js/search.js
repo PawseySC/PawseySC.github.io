@@ -31,6 +31,10 @@ $(document).ready(function() {
     filterResults();
   });
 
+  $('#containers').click(function() {
+    filterResults();
+  });
+
   $('#pawsey').click(function() {
     filterResults();
   });
@@ -54,11 +58,12 @@ $(document).ready(function() {
       isData = $('#data').is(':checked');
       isCloud = $('#cloud').is(':checked');
       isVisualisation = $('#visualisation').is(':checked');
+      isContainers = $('#containers').is(':checked');
       
       isPawsey = $('#pawsey').is(':checked');
       isExternal = $('#external').is(':checked');
       
-      if (isCore || isIntermediate || isAdvanced || isSupercomputing || isData || isCloud || isVisualisation || isPawsey || isExternal) 
+      if (isCore || isIntermediate || isAdvanced || isSupercomputing || isData || isCloud || isVisualisation || isContainers || isPawsey || isExternal) 
       {
         tag = $(this).find("td:eq(1)").html().toLowerCase();        
         if (searchValue == "" &&
@@ -69,6 +74,7 @@ $(document).ready(function() {
             (isData && tag.indexOf('data') > -1) ||
             (isCloud && tag.indexOf('cloud') > -1) ||
             (isVisualisation && tag.indexOf('visualisation') > -1) ||
+            (isContainers && tag.indexOf('containers') > -1) ||
             (isPawsey && tag.indexOf('pawsey') > -1) ||
             (isExternal && tag.indexOf('external') > -1))
         {
@@ -82,6 +88,7 @@ $(document).ready(function() {
                  (isData && tag.indexOf('data') > -1) ||
                  (isCloud && tag.indexOf('cloud') > -1) ||
                  (isVisualisation && tag.indexOf('visualisation') > -1) ||
+                 (isContainers && tag.indexOf('containers') > -1) ||
                  (isPawsey && tag.indexOf('pawsey') > -1) ||
                  (isExternal && tag.indexOf('external') > -1))
         {
