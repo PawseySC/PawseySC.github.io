@@ -143,6 +143,7 @@ tableData:
   level: Intermediate
   provider: Pawsey
   url: https://pawseysc.github.io/containers-astro-python-workshop
+  vid: https://www.youtube.com/playlist?list=PLmu61dgAX-aaIQibfUlxpy0Qz453jaLzl
   git: https://github.com/PawseySC/containers-astro-python-workshop
 - title: Containers @SC19, November 2019
   description: Tutorial on Singularity containers for HPC at SC19 in Denver (USA).
