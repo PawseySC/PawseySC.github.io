@@ -169,7 +169,7 @@ tableData:
   url: https://pawseysc.github.io/sc19-containers
   git: https://github.com/pawseysc/sc19-containers
 - title: Container Workflows
-  description: Tutorial on Docker containers in HPC and Cloud.
+  description: Tutorial on containers in HPC and Cloud.
   pageName: training.md
   level: Intermediate
   topic: Containers
