@@ -22,6 +22,7 @@ tableData:
   provider: Pawsey
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/UsingSupercomputersPart1V01.pdf?api=v2
   vid: https://www.youtube.com/watch?v=5myCBDNn5is&list=PLmu61dgAX-aZfevU9ZmtQ13bbOeF1GY5u&index=3
+  git: https://github.com/PawseySC/Introductory-Supercomputing
 - title: Using Supercomputers – Part 2
   description: Part 2 - Beginners training outlining use of High Performance Storage, running jobs, real world HPC use and getting help.
   pageName: training.md
@@ -30,6 +31,7 @@ tableData:
   provider: Pawsey
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/UsingSupercomputersPart2V01.pdf?api=v2
   vid: https://www.youtube.com/watch?v=l-S_dzCHcKk&list=PLmu61dgAX-aZfevU9ZmtQ13bbOeF1GY5u&index=3
+  git: https://github.com/PawseySC/Introductory-Supercomputing
 - title: Intermediate Supercomputing
   description: Intermediate course on developing MPI and OpenMP applications developed by the Pawsey Supercomputing Centre.
   pageName: training.md
