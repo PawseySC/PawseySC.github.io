@@ -276,7 +276,7 @@ tableData:
   url: https://www.lammps.org/workshops/Aug21
   ppt: https://www.lammps.org/workshops/Aug21/
   vid: https://www.lammps.org/workshops/Aug21
-- title: Quantum ESPRESSO e-school
+- title: Quantum ESPRESSO e-School 2021
   description: The school provides an introduction to materials and molecular modelling with Quantum ESPRESSO.
   pageName: training.md
   level: Intermediate
