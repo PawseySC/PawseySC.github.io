@@ -214,7 +214,7 @@ tableData:
   provider: Pawsey
   git: https://github.com/PawseySC/Using-Python-in-HPC
 - title: Data Intensive Workflows
-  description: Workshop on data-intensive workflows at Data Science Week 2019, featuring Slurm, (Python) Dask and Nextflow.
+  description: Workshop on data-intensive workflows at Data Science Week 2019, featuring Slurm, Dask and Nextflow.
   pageName: training.md
   level: Intermediate
   topic: Data
