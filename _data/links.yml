@@ -230,6 +230,15 @@ tableData:
   provider: External
   url: https://seqera.io/training
   vid: https://www.youtube.com/playlist?list=PLPZ8WHdZGxmUv4W8ZRlmstkZwhb_fencI
+- title: High-Performance Computing with Python
+  description: The course shows how Python can be used on parallel architectures and how to optimize critical parts of code using various tools.
+  pageName: training.md
+  level: Advanced
+  topic: Supercomputing
+  provider: External
+  url: https://www.cscs.ch/events/events/event-detail/high-performance-computing-with-python-4
+  vid: https://www.youtube.com/playlist?list=PL1tk5lGm7zvR__U3b3HmhSqJSDQh1bwPP
+  git: https://github.com/eth-cscs/PythonHPC
 - title: Kokkos Lecture Series
   description: Kokkos implements a programming model in C++ for writing performance portable applications targeting all major HPC platforms. This series presents an extensive introduction into everything necessary to start using Kokkos.
   pageName: training.md
@@ -240,3 +249,12 @@ tableData:
   ppt: https://github.com/kokkos/kokkos-tutorials/wiki/Kokkos-Lecture-Series
   vid: https://github.com/kokkos/kokkos-tutorials/wiki/Kokkos-Lecture-Series
   git: https://github.com/kokkos/kokkos-tutorials
+- title: ROCm Learning Centre
+  description: ROCm™ Learning Center offers resources to developers looking to tap the power of accelerated (GPU) computing.
+  pageName: training.md
+  level: Advanced
+  topic: Supercomputing
+  provider: External
+  url: https://developer.amd.com/resources/rocm-resources/rocm-learning-center
+  ppt: https://developer.amd.com/resources/rocm-resources/rocm-learning-center
+  vid: https://developer.amd.com/resources/rocm-resources/rocm-learning-center
