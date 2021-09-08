@@ -19,6 +19,7 @@ tableData:
   topic: Supercomputing
   provider: Pawsey
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Pawsey%20Merit%20Allocation%20Training%202021.pdf?api=v2
+  vid: https://www.youtube.com/watch?v=XpAg5zsNu3g
 - title: Using Supercomputers – Part 1
   description: Part 1 - Beginners training outlining the major characteristics of a supercomputer, logging in, submitting a job and other key concepts.
   pageName: training.md
