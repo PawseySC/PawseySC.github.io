@@ -221,4 +221,22 @@ tableData:
   provider: Pawsey
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Data%20Intensive%20Workflows%20in%20HPC.pdf?api=v2
   git: https://github.com/PawseySC/data-intensive-workflows
-# More
+# External
+- title: Nextflow Training Workshop
+  description: Nextflow enables scalable and reproducible scientific workflows. This workshop is a deep dive into its most prominent features.
+  pageName: training.md
+  level: Intermediate
+  topic: Data
+  provider: External
+  url: https://seqera.io/training
+  vid: https://www.youtube.com/playlist?list=PLPZ8WHdZGxmUv4W8ZRlmstkZwhb_fencI
+- title: Kokkos Lecture Series
+  description: Kokkos implements a programming model in C++ for writing performance portable applications targeting all major HPC platforms. This series presents an extensive introduction into everything necessary to start using Kokkos.
+  pageName: training.md
+  level: Advanced
+  topic: Supercomputing
+  provider: External
+  url: https://github.com/kokkos/kokkos-tutorials/wiki/Kokkos-Lecture-Series
+  ppt: https://github.com/kokkos/kokkos-tutorials/wiki/Kokkos-Lecture-Series
+  vid: https://github.com/kokkos/kokkos-tutorials/wiki/Kokkos-Lecture-Series
+  git: https://github.com/kokkos/kokkos-tutorials
