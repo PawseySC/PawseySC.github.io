@@ -67,19 +67,16 @@ $(document).ready(function() {
       {
         tag = $(this).find("td:eq(1)").html().toLowerCase();        
         if (searchValue == "" &&
-            ( (isCore && tag.indexOf('core') > -1) || 
+            (isCore && tag.indexOf('core') > -1) || 
             (isIntermediate && tag.indexOf('intermediate') > -1) ||
-            (isAdvanced && tag.indexOf('advanced') > -1) ) && 
-
-            ( (isSupercomputing && tag.indexOf('supercomputing') > -1) ||
+            (isAdvanced && tag.indexOf('advanced') > -1) ||
+            (isSupercomputing && tag.indexOf('supercomputing') > -1) ||
             (isData && tag.indexOf('data') > -1) ||
             (isCloud && tag.indexOf('cloud') > -1) ||
             (isVisualisation && tag.indexOf('visualisation') > -1) ||
-            (isContainers && tag.indexOf('containers') > -1) ) && 
-
-            ( (isPawsey && tag.indexOf('pawsey') > -1) ||
-            (isExternal && tag.indexOf('external') > -1) ) 
-           )
+            (isContainers && tag.indexOf('containers') > -1) ||
+            (isPawsey && tag.indexOf('pawsey') > -1) ||
+            (isExternal && tag.indexOf('external') > -1))
         {
           $(this).toggle(true);
         }
@@ -106,7 +103,6 @@ $(document).ready(function() {
       sortTable();
     });
   };
-
 });
 
 window.onload = function sortTableByName() {
