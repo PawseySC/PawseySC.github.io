@@ -262,7 +262,7 @@ tableData:
   description: This is a series of virtual and interactive classes, each one focused on a specific theme ranging from basic concepts to advanced topics in molecular simulations.
   pageName: training.md
   level: Intermediate
-  topic: Supercomputing
+  topic: Domains
   provider: External
   url: https://www.plumed.org/masterclass
   vid: https://www.plumed.org/masterclass
@@ -271,7 +271,7 @@ tableData:
   description: The workshop and symposium include a beginner tutorial on LAMMPS,scientific presentations, and developer sessions.
   pageName: training.md
   level: Intermediate
-  topic: Supercomputing
+  topic: Domains
   provider: External
   url: https://www.lammps.org/workshops/Aug21
   ppt: https://www.lammps.org/workshops/Aug21/
@@ -280,7 +280,7 @@ tableData:
   description: The school provides an introduction to materials and molecular modelling with Quantum ESPRESSO.
   pageName: training.md
   level: Intermediate
-  topic: Supercomputing
+  topic: Domains
   provider: External
   url: https://indico.ictp.it/event/9616
   ppt: https://indico.ictp.it/event/9616/other-view?view=ictptimetable
