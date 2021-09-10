@@ -57,6 +57,7 @@ $(document).ready(function() {
       isCore = $('#core').is(':checked');
       isIntermediate = $('#intermediate').is(':checked');
       isAdvanced = $('#advanced').is(':checked');
+      noLevel = ( !isCore && !isIntermediate && !isAdvanced );
 
       isSupercomputing = $('#supercomputing').is(':checked');
       isData = $('#data').is(':checked');
@@ -64,40 +65,30 @@ $(document).ready(function() {
       isVisualisation = $('#visualisation').is(':checked');
       isContainers = $('#containers').is(':checked');
       isDomains = $('#domains').is(':checked');
+      noTopic = ( !isSupercomputing && !isData && !isCloud && !isVisualisation && !isContainers && !isDomains );
       
       isPawsey = $('#pawsey').is(':checked');
       isExternal = $('#external').is(':checked');
+      noProvider = ( !isPawsey && !isExternal );
       
       if (isCore || isIntermediate || isAdvanced || isSupercomputing || isData || isCloud || isVisualisation || isContainers || isDomains || isPawsey || isExternal) 
       {
         tag = $(this).find("td:eq(1)").html().toLowerCase();        
-        if (searchValue == "" &&
-            (isCore && tag.indexOf('core') > -1) || 
+        if ( ( searchValue == "" || text.indexOf(searchValue) > -1 ) &&
+            ( (isCore && tag.indexOf('core') > -1) ||
             (isIntermediate && tag.indexOf('intermediate') > -1) ||
             (isAdvanced && tag.indexOf('advanced') > -1) ||
-            (isSupercomputing && tag.indexOf('supercomputing') > -1) ||
+            noLevel ) &&
+            ( (isSupercomputing && tag.indexOf('supercomputing') > -1) ||
             (isData && tag.indexOf('data') > -1) ||
             (isCloud && tag.indexOf('cloud') > -1) ||
             (isVisualisation && tag.indexOf('visualisation') > -1) ||
             (isContainers && tag.indexOf('containers') > -1) ||
             (isDomains && tag.indexOf('domains') > -1) ||
-            (isPawsey && tag.indexOf('pawsey') > -1) ||
-            (isExternal && tag.indexOf('external') > -1))
-        {
-          $(this).toggle(true);
-        }
-        else if (text.indexOf(searchValue) > -1 &&
-                 (isCore && tag.indexOf('core') > -1) || 
-                 (isIntermediate && tag.indexOf('intermediate') > -1) ||
-                 (isAdvanced && tag.indexOf('advanced') > -1) ||
-                 (isSupercomputing && tag.indexOf('supercomputing') > -1) ||
-                 (isData && tag.indexOf('data') > -1) ||
-                 (isCloud && tag.indexOf('cloud') > -1) ||
-                 (isVisualisation && tag.indexOf('visualisation') > -1) ||
-                 (isContainers && tag.indexOf('containers') > -1) ||
-                 (isDomains && tag.indexOf('domains') > -1) ||
-                 (isPawsey && tag.indexOf('pawsey') > -1) ||
-                 (isExternal && tag.indexOf('external') > -1))
+            noTopic ) &&
+            ( (isPawsey && tag.indexOf('pawsey') > -1) ||
+            (isExternal && tag.indexOf('external') > -1) ||
+            noProvider ) )
         {
           $(this).toggle(true);
         }
