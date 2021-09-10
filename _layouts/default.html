@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     {% if page.name == 'index.md' %}
-      <meta http-equiv = "refresh" content = "0; url = https://pawseysc.github.io/training.html" />
+      <meta http-equiv = "refresh" content = "0; url = ./training.html" />
     {% endif %}
     <link href="assets/fontawesome/css/all.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -23,7 +23,7 @@
     <div class="main-content">
       <div class="main-content-search">
         <div>
-          <input id="searchInput" type="text" placeholder="Search...">
+          <input id="searchInput" type="text" placeholder="Search..." style="width: 98%;">
         </div>
         <div class="search-label">
           <label>Level</label>
@@ -42,6 +42,16 @@
         <div class="search-criteria">
           <input type="checkbox" id="supercomputing" name="supercomputing" value="Supercomputing">
           <label for="home">Supercomputing</label><br>
+          <input type="checkbox" id="data" name="data" value="Data">
+          <label for="home">Data</label><br>
+          <input type="checkbox" id="cloud" name="cloud" value="Cloud">
+          <label for="home">Cloud</label><br>
+          <input type="checkbox" id="visualisation" name="visualisation" value="Visualisation">
+          <label for="home">Visualisation</label><br>
+          <input type="checkbox" id="containers" name="containers" value="Containers">
+          <label for="home">Containers</label><br>
+          <input type="checkbox" id="domains" name="domains" value="Domains">
+          <label for="home">Domains</label><br>
         </div>
         <div class="search-label">
           <label>Provider</label>
