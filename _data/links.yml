@@ -5,10 +5,10 @@ tableData:
   pageName: training.md
   level: Core
   topic: 
-    - Supercomputing
-    - Data
-    - Cloud
-    - Visualisation
+    - name: Supercomputing
+    - name: Data
+    - name: Cloud
+    - name: Visualisation
   provider: Pawsey
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Introduction%20to%20Pawsey.pdf?api=v2
   vid: https://www.youtube.com/watch?v=j2JFCsvsH1g&list=PLmu61dgAX-aZfevU9ZmtQ13bbOeF1GY5u&index=2
@@ -16,7 +16,8 @@ tableData:
   description: Setonix overview and merit allocation schemes for 2022.
   pageName: training.md
   level: Core
-  topic: Supercomputing
+  topic: 
+    - name: Supercomputing
   provider: Pawsey
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Pawsey%20Merit%20Allocation%20Training%202021.pdf?api=v2
   vid: https://www.youtube.com/watch?v=XpAg5zsNu3g
@@ -24,7 +25,8 @@ tableData:
   description: Part 1 - Beginners training outlining the major characteristics of a supercomputer, logging in, submitting a job and other key concepts.
   pageName: training.md
   level: Core
-  topic: Supercomputing
+  topic: 
+    - name: Supercomputing
   provider: Pawsey
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/UsingSupercomputersPart1V01.pdf?api=v2
   vid: https://www.youtube.com/watch?v=5myCBDNn5is&list=PLmu61dgAX-aZfevU9ZmtQ13bbOeF1GY5u&index=3
@@ -33,7 +35,8 @@ tableData:
   description: Part 2 - Beginners training outlining use of High Performance Storage, running jobs, real world HPC use and getting help.
   pageName: training.md
   level: Core
-  topic: Supercomputing
+  topic: 
+    - name: Supercomputing
   provider: Pawsey
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/UsingSupercomputersPart2V01.pdf?api=v2
   vid: https://www.youtube.com/watch?v=l-S_dzCHcKk&list=PLmu61dgAX-aZfevU9ZmtQ13bbOeF1GY5u&index=3
@@ -42,7 +45,8 @@ tableData:
   description: Intermediate course on developing MPI and OpenMP applications developed by the Pawsey Supercomputing Centre.
   pageName: training.md
   level: Intermediate
-  topic: Supercomputing
+  topic: 
+    - name: Supercomputing
   provider: Pawsey
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Intermediate%20Supercomputing.pdf?api=v2
   git: https://github.com/PawseySC/Intermediate-Supercomputing
@@ -57,7 +61,8 @@ tableData:
   description: This course will introduce you to the use of Nimbus, the research cloud at Pawsey Supercomputing Centre.
   pageName: training.md
   level: Core
-  topic: Cloud
+  topic: 
+    - name: Cloud
   provider: Pawsey
   url: https://pawseysc.github.io/using-nimbus
   vid: https://www.youtube.com/playlist?list=PLmu61dgAX-aYar4Fpust_u3mpDt07T2jl
@@ -66,7 +71,8 @@ tableData:
   description: Introduction to remote visualisation facilities at Pawsey.
   pageName: training.md
   level: Core
-  topic: Visualisation
+  topic: 
+    - name: Visualisation
   provider: Pawsey
   url: https://vis.pawsey.org.au/training
   ppt: https://vis.pawsey.org.au/training/intro-to-remotevis
@@ -75,7 +81,8 @@ tableData:
   description: Visualisation using ParaView.
   pageName: training.md
   level: Core
-  topic: Visualisation
+  topic: 
+    - name: Visualisation
   provider: Pawsey
   url: https://vis.pawsey.org.au/training
   ppt: https://vis.pawsey.org.au/training/paraview-part1/#/
@@ -83,7 +90,8 @@ tableData:
   description: Visualisation using ParaView.
   pageName: training.md
   level: Core
-  topic: Visualisation
+  topic: 
+    - name: Visualisation
   provider: Pawsey
   url: https://vis.pawsey.org.au/training
   ppt: https://vis.pawsey.org.au/training/paraview-part2/#/
@@ -128,7 +136,8 @@ tableData:
   description: Software portability, data reproducibility, scaling to HPC. This series answers key questions about containers.
   pageName: training.md
   level: Intermediate
-  topic: Containers
+  topic: 
+    - name: Containers
   provider: Pawsey
   url: https://pawseysc.github.io/singularity-containers
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Containers%20on%20HPC%20and%20Cloud%20with%20Singularity.pdf?api=v2
@@ -138,7 +147,8 @@ tableData:
   description: Hands-on practice with the use of OpenFOAM containers for computational fluid dynamics on HPC.
   pageName: training.md
   level: Intermediate
-  topic: Containers
+  topic: 
+    - name: Containers
   provider: Pawsey
   url: https://pawseysc.github.io/containers-openfoam-workshop
   vid: https://www.youtube.com/playlist?list=PLmu61dgAX-aZS9kbcuKpRtLswApf49Z4D
@@ -147,7 +157,8 @@ tableData:
   description: This workshop provides an interactive forum to explore the merits, advantages and limitations of applying containers in bioinformatics.
   pageName: training.md
   level: Intermediate
-  topic: Containers
+  topic: 
+    - name: Containers
   provider: Pawsey
   url: https://pawseysc.github.io/containers-bioinformatics-workshop
   vid: https://www.youtube.com/playlist?list=PLmu61dgAX-aYkz4rAl-nqmUfq_u9YUoFn
@@ -156,7 +167,8 @@ tableData:
   description: Hands-on practice with the development of Python containers for radio-astronomy on HPC.
   pageName: training.md
   level: Intermediate
-  topic: Containers
+  topic: 
+    - name: Containers
   provider: Pawsey
   url: https://pawseysc.github.io/containers-astro-python-workshop
   vid: https://www.youtube.com/playlist?list=PLmu61dgAX-aaIQibfUlxpy0Qz453jaLzl
@@ -165,7 +177,8 @@ tableData:
   description: Tutorial on Singularity containers for HPC at SC19 in Denver (USA).
   pageName: training.md
   level: Intermediate
-  topic: Containers
+  topic: 
+    - name: Containers
   provider: Pawsey
   url: https://pawseysc.github.io/sc19-containers
   git: https://github.com/pawseysc/sc19-containers
@@ -173,7 +186,8 @@ tableData:
   description: Tutorial on containers in HPC and Cloud.
   pageName: training.md
   level: Intermediate
-  topic: Containers
+  topic: 
+    - name: Containers
   provider: Pawsey
   url: https://pawseysc.github.io/container-workflows
   git: https://github.com/PawseySC/container-workflows
@@ -181,7 +195,8 @@ tableData:
   description: Docker containers tutorial for ResBaz19 in Perth.
   pageName: training.md
   level: Intermediate
-  topic: Containers
+  topic: 
+    - name: Containers
   provider: Pawsey
   url: https://pawseysc.github.io/docker-resbaz19
   git: https://github.com/PawseySC/docker-resbaz19
@@ -189,14 +204,16 @@ tableData:
   description: Pawsey workshop on containers for bioinformatics.
   pageName: training.md
   level: Intermediate
-  topic: Containers
+  topic: 
+    - name: Containers
   provider: Pawsey
   git: https://github.com/PawseySC/bio-workshop-18
 - title: Overview of Containers in HPC
   description: Pawsey Webinar on containers for HPC.
   pageName: training.md
   level: Intermediate
-  topic: Containers
+  topic: 
+    - name: Containers
   provider: Pawsey
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Overview%20of%20Containers%20in%20HPC.pdf?api=v2
   git: https://github.com/PawseySC/Overview-of-Containers-in-HPC
@@ -205,21 +222,24 @@ tableData:
   description: Introductory workshop for Machine Learning in observational astronomy.
   pageName: training.md
   level: Intermediate
-  topic: Data
+  topic: 
+    - name: Data
   provider: Pawsey
   git: https://github.com/PawseySC/cosmic-machines
 - title: Using Python in HPC
   description: Pawsey Webinar on Python for HPC.
   pageName: training.md
   level: Intermediate
-  topic: Supercomputing
+  topic: 
+    - name: Supercomputing
   provider: Pawsey
   git: https://github.com/PawseySC/Using-Python-in-HPC
 - title: Data Intensive Workflows
   description: Workshop on data-intensive workflows at Data Science Week 2019, featuring Slurm, Dask and Nextflow.
   pageName: training.md
   level: Intermediate
-  topic: Data
+  topic: 
+    - name: Data
   provider: Pawsey
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Data%20Intensive%20Workflows%20in%20HPC.pdf?api=v2
   git: https://github.com/PawseySC/data-intensive-workflows
@@ -228,7 +248,8 @@ tableData:
   description: Nextflow enables scalable and reproducible scientific workflows. This workshop is a deep dive into its most prominent features.
   pageName: training.md
   level: Intermediate
-  topic: Data
+  topic: 
+    - name: Data
   provider: External
   url: https://seqera.io/training
   vid: https://www.youtube.com/playlist?list=PLPZ8WHdZGxmUv4W8ZRlmstkZwhb_fencI
@@ -236,7 +257,8 @@ tableData:
   description: The course shows how Python can be used on parallel architectures and how to optimize critical parts of code using various tools.
   pageName: training.md
   level: Advanced
-  topic: Supercomputing
+  topic: 
+    - name: Supercomputing
   provider: External
   url: https://www.cscs.ch/events/events/event-detail/high-performance-computing-with-python-4
   vid: https://www.youtube.com/playlist?list=PL1tk5lGm7zvR__U3b3HmhSqJSDQh1bwPP
@@ -245,7 +267,8 @@ tableData:
   description: Kokkos implements a programming model in C++ for writing performance portable applications targeting all major HPC platforms. This series presents an extensive introduction into everything necessary to start using Kokkos.
   pageName: training.md
   level: Advanced
-  topic: Supercomputing
+  topic: 
+    - name: Supercomputing
   provider: External
   url: https://github.com/kokkos/kokkos-tutorials/wiki/Kokkos-Lecture-Series
   ppt: https://github.com/kokkos/kokkos-tutorials/wiki/Kokkos-Lecture-Series
@@ -255,7 +278,8 @@ tableData:
   description: ROCm Learning Center offers resources to developers looking to tap the power of accelerated (GPU) computing.
   pageName: training.md
   level: Advanced
-  topic: Supercomputing
+  topic: 
+    - name: Supercomputing
   provider: External
   url: https://developer.amd.com/resources/rocm-resources/rocm-learning-center
   ppt: https://developer.amd.com/resources/rocm-resources/rocm-learning-center
@@ -264,7 +288,8 @@ tableData:
   description: This is a series of virtual and interactive classes, each one focused on a specific theme ranging from basic concepts to advanced topics in molecular simulations.
   pageName: training.md
   level: Intermediate
-  topic: Domains
+  topic: 
+    - name: Domains
   provider: External
   url: https://www.plumed.org/masterclass
   vid: https://www.plumed.org/masterclass
@@ -273,7 +298,8 @@ tableData:
   description: The workshop and symposium include a beginner tutorial on LAMMPS,scientific presentations, and developer sessions.
   pageName: training.md
   level: Intermediate
-  topic: Domains
+  topic: 
+    - name: Domains
   provider: External
   url: https://www.lammps.org/workshops/Aug21
   ppt: https://www.lammps.org/workshops/Aug21/
@@ -282,7 +308,8 @@ tableData:
   description: The school provides an introduction to materials and molecular modelling with Quantum ESPRESSO.
   pageName: training.md
   level: Intermediate
-  topic: Domains
+  topic: 
+    - name: Domains
   provider: External
   url: https://indico.ictp.it/event/9616
   ppt: https://indico.ictp.it/event/9616/other-view?view=ictptimetable
