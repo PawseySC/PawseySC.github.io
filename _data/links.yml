@@ -205,12 +205,14 @@ tableData:
   description: Introductory workshop for Machine Learning in observational astronomy.
   pageName: training.md
   level: Intermediate
+  topic: Data
   provider: Pawsey
   git: https://github.com/PawseySC/cosmic-machines
 - title: Using Python in HPC
   description: Pawsey Webinar on Python for HPC.
   pageName: training.md
   level: Intermediate
+  topic: Supercomputing
   provider: Pawsey
   git: https://github.com/PawseySC/Using-Python-in-HPC
 - title: Data Intensive Workflows
