@@ -275,7 +275,7 @@ tableData:
   vid: https://www.plumed.org/masterclass
   git: https://github.com/plumed?q=masterclass&type=&language=&sort=
 - title: LAMMPS Virtual Workshop and Symposium 2021
-  description: The workshop and symposium include a beginner tutorial on LAMMPS,scientific presentations, and developer sessions.
+  description: The workshop and symposium include a beginner tutorial on LAMMPS, scientific presentations, and developer sessions.
   pageName: training.md
   level: Intermediate
   topic: Domains
@@ -292,3 +292,11 @@ tableData:
   url: https://indico.ictp.it/event/9616
   ppt: https://indico.ictp.it/event/9616/other-view?view=ictptimetable
   vid: https://indico.ictp.it/event/9616/other-view?view=ictptimetable
+- title: Workshop on Computational Biophysics with NAMD and VMD
+  description: This workshop covers instruction in state-of-the-art molecular dynamics simulation and free energy techniques using NAMD, bacterial cells simulation with Lattice Microbes (LM) and biomolecular visualization and analysis with VMD.
+  pageName: training.md
+  level: Intermediate
+  topics: Domains
+  provider: External
+  url: https://www.ks.uiuc.edu/Training/Workshop/Urbana2021a
+  vid: https://www.youtube.com/playlist?list=PLVtxC-hXzL14KzwZUx4ry9-siroDGoFFt
