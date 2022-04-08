@@ -300,3 +300,13 @@ tableData:
   provider: External
   url: https://www.ks.uiuc.edu/Training/Workshop/Urbana2021a
   vid: https://www.youtube.com/playlist?list=PLVtxC-hXzL14KzwZUx4ry9-siroDGoFFt
+- title: Overview of using containers in an HPC context
+  description: This course will introduce you to using containers in HPC environments and on Pawsey Supercomputing Research Centre systems.
+  pageName: training.md
+  level: Core
+  topic: Containers
+  provider: Pawsey
+  url: https://pawseysc.github.io/hpc-container-training
+  vid: 
+  git: https://github.com/PawseySC/hpc-container-training
+  
