@@ -229,14 +229,16 @@ tableData:
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Data%20Intensive%20Workflows%20in%20HPC.pdf?api=v2
   git: https://github.com/PawseySC/data-intensive-workflows
 # External
-- title: Nextflow Training Workshop, 2020
+- title: Nextflow Training Workshop, 2022
   description: Nextflow enables scalable and reproducible scientific workflows. This workshop is a deep dive into its most prominent features.
   pageName: training.md
   level: Intermediate
   topic: Data
   provider: External
-  url: https://seqera.io/training
-  vid: https://www.youtube.com/playlist?list=PLPZ8WHdZGxmUv4W8ZRlmstkZwhb_fencI
+  url: https://seqera.io/nextflow/workshop
+  ppt: https://training.seqera.io
+  vid: https://www.youtube.com/playlist?list=PLPZ8WHdZGxmUVZRUfua8CsjuhjZ96t62R
+  git: https://github.com/seqeralabs/nf-training-public
 - title: High-Performance Computing with Python, 2021
   description: The course shows how Python can be used on parallel architectures and how to optimize critical parts of code using various tools.
   pageName: training.md
