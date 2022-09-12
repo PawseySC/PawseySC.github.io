@@ -47,13 +47,7 @@ tableData:
   provider: Pawsey
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Intermediate%20Supercomputing.pdf?api=v2
   git: https://github.com/PawseySC/Intermediate-Supercomputing
-- title: Shell for HPC, 2019
-  description: Pawsey version of the Introduction to Unix SW Carpentry material.
-  pageName: training.md
-  level: Core
-  provider: Pawsey
-  url: https://pawseysc.github.io/shell-hpc
-  git: https://github.com/PawseySC/shell-hpc
+#removed Shell for HPC 2019
 - title: Using the Nimbus Research Cloud Series, 2020
   description: This course will introduce you to the use of Nimbus, the research cloud at Pawsey Supercomputing Centre.
   pageName: training.md
