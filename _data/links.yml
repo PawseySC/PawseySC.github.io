@@ -21,15 +21,15 @@ tableData:
   provider: Pawsey
   ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Pawsey%20Merit%20Allocation%20Training%202021.pdf?api=v2
   vid: https://www.youtube.com/watch?v=XpAg5zsNu3g
-- title: Using Supercomputers – Part 1, November 2021
-  description: Part 1 - Outlines the major characteristics of a supercomputer, logging in, submitting a job and other key concepts.
+- title: Using Supercomputers – User Training, August 2022
+  description: The training is aimed at guiding 'New Users' through the basic steps and concepts required to interact with a supercomputer.
   pageName: training.md
   level: Core
   topic: Supercomputing
   provider: Pawsey
-  ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Using%20Supercomputers%20-%20Part%201%2024Nov2021.pdf?api=v2 
-  vid: https://www.youtube.com/watch?v=eDE2MaEkyxA  
-  git: https://github.com/PawseySC/Introductory-Supercomputing
+  ppt: https://support.pawsey.org.au/documentation/display/US/Training+Material 
+  vid: https://www.youtube.com/playlist?list=PLmu61dgAX-aYlqIy2VgH8s8UD2oUIA3KS 
+  git: https://github.com/PawseySC/supercomputing-user-training
 - title: Using Supercomputers – Part 2, November 2021
   description: Part 2 - Outlines the use of High Performance Storage, running jobs, real world HPC use and getting help.
   pageName: training.md
