@@ -30,15 +30,6 @@ tableData:
   ppt: https://support.pawsey.org.au/documentation/display/US/Training+Material 
   vid: https://www.youtube.com/playlist?list=PLmu61dgAX-aYlqIy2VgH8s8UD2oUIA3KS 
   git: https://github.com/PawseySC/supercomputing-user-training
-- title: Using Supercomputers – Part 2, November 2021
-  description: Part 2 - Outlines the use of High Performance Storage, running jobs, real world HPC use and getting help.
-  pageName: training.md
-  level: Core
-  topic: Supercomputing
-  provider: Pawsey
-  ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Using%20Supercomputers%20Part%202%2024Nov2021.pdf?api=v2 
-  vid: https://www.youtube.com/watch?v=GQhunjns0Wk
-  git: https://github.com/PawseySC/Introductory-Supercomputing
 - title: Introduction to Containers on HPC, April 2022
   description: This course will introduce you to using containers in HPC environments and on Pawsey Supercomputing Research Centre systems.
   pageName: training.md
