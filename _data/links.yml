@@ -152,14 +152,6 @@ tableData:
   url: https://pawseysc.github.io/containers-astro-python-workshop
   vid: https://www.youtube.com/playlist?list=PLmu61dgAX-aaIQibfUlxpy0Qz453jaLzl
   git: https://github.com/PawseySC/containers-astro-python-workshop
-- title: Docker @ResBaz19, July 2019
-  description: Docker containers tutorial for ResBaz19 in Perth.
-  pageName: training.md
-  level: Intermediate
-  topic: Containers
-  provider: Pawsey
-  url: https://pawseysc.github.io/docker-resbaz19
-  git: https://github.com/PawseySC/docker-resbaz19
 - title: Bio Workshop 18, September 2018
   description: Pawsey workshop on containers for bioinformatics.
   pageName: training.md
