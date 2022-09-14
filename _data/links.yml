@@ -152,14 +152,6 @@ tableData:
   url: https://pawseysc.github.io/containers-astro-python-workshop
   vid: https://www.youtube.com/playlist?list=PLmu61dgAX-aaIQibfUlxpy0Qz453jaLzl
   git: https://github.com/PawseySC/containers-astro-python-workshop
-- title: Container Workflows, 2020
-  description: Tutorial on containers in HPC and Cloud.
-  pageName: training.md
-  level: Intermediate
-  topic: Containers
-  provider: Pawsey
-  url: https://pawseysc.github.io/container-workflows
-  git: https://github.com/PawseySC/container-workflows
 - title: Docker @ResBaz19, July 2019
   description: Docker containers tutorial for ResBaz19 in Perth.
   pageName: training.md
