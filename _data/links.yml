@@ -152,14 +152,6 @@ tableData:
   url: https://pawseysc.github.io/containers-astro-python-workshop
   vid: https://www.youtube.com/playlist?list=PLmu61dgAX-aaIQibfUlxpy0Qz453jaLzl
   git: https://github.com/PawseySC/containers-astro-python-workshop
-- title: Overview of Containers in HPC, February 2019
-  description: Pawsey Webinar on containers for HPC.
-  pageName: training.md
-  level: Beginning
-  topic: Containers
-  provider: Pawsey
-  ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Overview%20of%20Containers%20in%20HPC.pdf?api=v2
-  git: https://github.com/PawseySC/Overview-of-Containers-in-HPC
 # Misc Webinars
 - title: Cosmic Machines, September 2019
   description: Introductory workshop for Machine Learning in observational astronomy.
