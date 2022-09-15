@@ -153,13 +153,6 @@ tableData:
   vid: https://www.youtube.com/playlist?list=PLmu61dgAX-aaIQibfUlxpy0Qz453jaLzl
   git: https://github.com/PawseySC/containers-astro-python-workshop
 # Misc Webinars
-- title: Cosmic Machines, September 2019
-  description: Introductory workshop for Machine Learning in observational astronomy.
-  pageName: training.md
-  level: Intermediate
-  topic: Data
-  provider: Pawsey
-  git: https://github.com/PawseySC/cosmic-machines
 - title: Using Python in HPC, 2019
   description: Pawsey Webinar on Python for HPC.
   pageName: training.md
