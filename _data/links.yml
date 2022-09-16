@@ -153,13 +153,6 @@ tableData:
   vid: https://www.youtube.com/playlist?list=PLmu61dgAX-aaIQibfUlxpy0Qz453jaLzl
   git: https://github.com/PawseySC/containers-astro-python-workshop
 # Misc Webinars
-- title: Using Python in HPC, 2019
-  description: Pawsey Webinar on Python for HPC.
-  pageName: training.md
-  level: Intermediate
-  topic: Supercomputing
-  provider: Pawsey
-  git: https://github.com/PawseySC/Using-Python-in-HPC
 - title: Data Intensive Workflows, May 2019
   description: Workshop on data-intensive workflows at Data Science Week 2019, featuring Slurm, Dask and Nextflow.
   pageName: training.md
