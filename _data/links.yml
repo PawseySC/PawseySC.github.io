@@ -191,39 +191,4 @@ tableData:
   url: https://developer.amd.com/resources/rocm-resources/rocm-learning-center
   ppt: https://developer.amd.com/resources/rocm-resources/rocm-learning-center
   vid: https://developer.amd.com/resources/rocm-resources/rocm-learning-center
-- title: PLUMED Masterclass, 2021
-  description: This is a series of virtual and interactive classes, each one focused on a specific theme ranging from basic concepts to advanced topics in molecular simulations.
-  pageName: training.md
-  level: Intermediate
-  topic: Domains
-  provider: External
-  url: https://www.plumed.org/masterclass
-  vid: https://www.plumed.org/masterclass
-  git: https://github.com/plumed?q=masterclass&type=&language=&sort=
-- title: LAMMPS Virtual Workshop and Symposium, 2021
-  description: The workshop and symposium include a beginner tutorial on LAMMPS, scientific presentations, and developer sessions.
-  pageName: training.md
-  level: Intermediate
-  topic: Domains
-  provider: External
-  url: https://www.lammps.org/workshops/Aug21
-  ppt: https://www.lammps.org/workshops/Aug21/
-  vid: https://www.lammps.org/workshops/Aug21
-- title: Quantum ESPRESSO e-School, 2021
-  description: The school provides an introduction to materials and molecular modelling with Quantum ESPRESSO.
-  pageName: training.md
-  level: Intermediate
-  topic: Domains
-  provider: External
-  url: https://indico.ictp.it/event/9616
-  ppt: https://indico.ictp.it/event/9616/other-view?view=ictptimetable
-  vid: https://indico.ictp.it/event/9616/other-view?view=ictptimetable
-- title: Hands-on Workshop on Computational Biophysics with NAMD and VMD, 2021
-  description: This workshop covers instruction in state-of-the-art molecular dynamics simulation and free energy techniques using NAMD, bacterial cells simulation with Lattice Microbes (LM) and biomolecular visualization and analysis with VMD.
-  pageName: training.md
-  level: Intermediate
-  topic: Domains
-  provider: External
-  url: https://www.ks.uiuc.edu/Training/Workshop/Urbana2021a
-  vid: https://www.youtube.com/playlist?list=PLVtxC-hXzL14KzwZUx4ry9-siroDGoFFt
   
