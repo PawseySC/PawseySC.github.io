@@ -152,15 +152,6 @@ tableData:
   url: https://pawseysc.github.io/containers-astro-python-workshop
   vid: https://www.youtube.com/playlist?list=PLmu61dgAX-aaIQibfUlxpy0Qz453jaLzl
   git: https://github.com/PawseySC/containers-astro-python-workshop
-# Misc Webinars
-- title: Data Intensive Workflows, May 2019
-  description: Workshop on data-intensive workflows at Data Science Week 2019, featuring Slurm, Dask and Nextflow.
-  pageName: training.md
-  level: Intermediate
-  topic: Data
-  provider: Pawsey
-  ppt: https://support.pawsey.org.au/documentation/download/attachments/2162899/Data%20Intensive%20Workflows%20in%20HPC.pdf?api=v2
-  git: https://github.com/PawseySC/data-intensive-workflows
 # External
 - title: Nextflow Training Workshop, 2022
   description: Nextflow enables scalable and reproducible scientific workflows. This workshop is a deep dive into its most prominent features.
